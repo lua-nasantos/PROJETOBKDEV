@@ -1,0 +1,55 @@
+body{
+    background-color: #F5F3F0;
+}
+
+.container{
+    max-width: 1330px;
+    margin:0 auto;
+    padding: 30px;
+}
+
+.cabecalho .container{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.banner img{
+    width: 100%;
+}
+
+
+/* APLICANDO ESTILO NA LISTA DE PRODUTOS*/
+.secaoProdutos{}
+.secaoProdutos .produtosLista{}
+.secaoProdutos .cardProdutos{
+    background-color: #fff;
+    width: 233px;
+    text-align: center;
+    padding: 22px 28px;
+
+}
+.secaoProdutos .cardProdutos img{}
+.secaoProdutos .cardProdutos h3{
+    color: #502314;
+    font-size: 20px;
+    font-weight: 700;
+}
+.secaoProdutos .cardProdutos p{
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 28px;
+
+}
+.secaoProdutos .cardProdutos button{
+    background-color: #F5F3F0;
+    border: none;
+    border-radius: 8px;
+    width: 177px;
+    height: 41px;
+    color: #2D2D2D;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
