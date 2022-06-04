@@ -7,7 +7,9 @@
     <!--IMPORTANDO CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap"
+    />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <title>Projeto BKB</title>
@@ -94,29 +96,51 @@
         </div>
       </section>
     </main>
-    <footer>
-      <section>
-        <div>
-          <h3>Olá Luana | Minha sacola</h3>
-          <p>Retirar no balcão</p>
+    <!--RODAPÉ-->
+    <footer class="rodape">
+      <!--SEÇÃO CARRINHO-->
+      <section class="carrinho">
+        <!--CABEÇALHO INFORMAÇÕES USUÁRIO-->
+        <header class="infoResumo">
+          <div class="container">
+          <!--INFORMAÇÕES DO USUÁRIO-->
+          <div class="infoUsuario">
+            <h3>Olá Luana | Minha sacola</h3>
+            <p>Retirar no balcão</p>
+          </div>
+          <!--INFORMAÇÕES DE PREÇO TOTAL-->
+          <p class="infoPreco">Total: R$ 32.90</p>
+          </div>
+        </header>
+        <div class="container">
+        <!--LISTA/RESUMO DE PRODUTOS SELECIONADOS-->
+        <div class="resumoPedido">
+          <ul class="listaProdutos">
+            <li class="cardProduto">
+              <!--NOME/FOTO PRODUTO-->
+              <div class="infoNome">
+                <img src="./src/assets/combo_whopper.png" alt="Combo Whopper" />
+                <p>Combo Whopper</p>
+              </div>
+              <!--PREÇO PRODUTO-->
+              <div class="infoPreco">
+                <p>R$ 32.90</p>
+                <button>
+                <img src="./src/assets/lixo.png" alt="Lixo para remover produto">
+               </button>
+              </div>
+            </li>
+          </ul>
         </div>
-        <p>Total: R$ 32.90</p>
+        <!--BOTÕES PARA FINALIZAR/CANCELAR PEDIDO-->
+        <div class="btnFinalizaPedido">
+          <button type="button">Finalizar Pedido</button>
+          <button type="button">Cancelar Pedido</button>
+        </div>
       </section>
       <section>
-        <div>
-          <div>
-            <img src="./src/assets/combo_whopper.png" alt="Combo Whopper" />
-            <p>Combo Whopper</p>
+        <div></div>
           </div>
-          <div>
-            <p>R$ 32.90</p>
-            <img src="./src/assets/lixo.png" alt="Lixo para remover produto" />
-          </div>
-          <div>
-            <button type="button">Finalizar Pedido</button>
-            <button type="button">Cancelar Pedido</button>
-          </div>
-        </div>
       </section>
     </footer>
   </body>
