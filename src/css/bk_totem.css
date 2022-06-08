@@ -1,0 +1,40 @@
+body{
+    background-color: #f5f3f0;
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/*CABEÇALHO*/
+
+.cabecalho{
+    border-bottom: 1px solid #db3b1d;
+}
+
+.cabecalho .container{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 20px 60px;
+
+}
+
+/*PARTE PRINCIPAL*/
+
+#container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#container_principal > img{
+    width: 110px;
+    margin: bottom 10px; ;
+}
