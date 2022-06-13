@@ -9,16 +9,18 @@ body {
   padding: 30px;
 }
 
+/*APLICANDO ESTILO NO CABEÇALHO*/
 .cabecalho .container {
   display: flex;
   justify-content: space-between;
 }
 
+/*APLICANDO ESTILO NA IMAGEM DO BANNER*/
 .banner img {
   width: 100%;
 }
 
-/* APLICANDO ESTILO NA LISTA DE PRODUTOS*/
+/* APLICANDO ESTILO NA SEÇÃO DE PRODUTOS*/
 .secaoProdutos {
   padding-top: 74px;
 }
@@ -27,7 +29,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.secaoProdutos .cardProdutos {
+.secaoProdutos .cardProduto {
   background-color: #fff;
   width: 233px;
   text-align: center;
@@ -36,9 +38,8 @@ body {
   border-radius: 15px;
   margin-bottom: 15px;
 }
-.secaoProdutos .cardProdutos img {
-}
-.secaoProdutos .cardProdutos h3 {
+
+.secaoProdutos .cardProduto h3 {
   color: #502314;
   font-size: 20px;
   font-weight: 700;
@@ -47,14 +48,14 @@ body {
   max-width: 160px;
   font-family: "Nunito", sans-serif;
 }
-.secaoProdutos .cardProdutos p {
+.secaoProdutos .cardProduto p {
   color: black;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 28px;
   font-family: "Nunito", sans-serif;
 }
-.secaoProdutos .cardProdutos button {
+.secaoProdutos .cardProduto button {
   background-color: #f5f3f0;
   border: none;
   border-radius: 8px;
@@ -71,21 +72,19 @@ body {
 .carrinho .infoResumo {
   background: #502314;
   border-radius: 32px 32px 0px 0px;
-  padding: 20px 0px;
+  padding: 23px 0px;
 }
 
 .carrinho .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  
 }
 
 .carrinho {
   background: white;
 }
 
-.carrinho .infoUsuario {
-}
 .carrinho .infoUsuario h3 {
   font-weight: 500;
   font-size: 32px;
@@ -113,8 +112,7 @@ body {
 width: 80%;
 
 }
-.carrinho .resumoPedido .listaProdutos {
-}
+
 .carrinho .resumoPedido .cardProduto {
   background: #f5f3f0;
   border-radius: 15px;
@@ -186,7 +184,7 @@ width: 80%;
   font-size: 22px;
   color: #ffffff;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 .btnFinalizaPedido button ~ button {
   background: #fff;
