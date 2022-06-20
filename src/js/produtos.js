@@ -28,7 +28,7 @@ const produtos = [
         nome:"Combo Whopper Rodeio",
         preco: 38.90,
         image:"./src/assets/whopper_rodeio.png"
-    } 
+    }, 
 
 
 ]   
